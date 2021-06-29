@@ -93,16 +93,11 @@ img {
   #why{
     background-color: red;
   }
-  #why .row > .first,
-  #why .row > .second,
-  #why .row > .third,
-  #steps .row > .left,
-  #steps .row > .central,
-  #steps .row > .right,
-  #lezioni .row > .left,
-  #lezioni .row > .right{
-    float: none;
-    width: 95%;
+  #why .row > *,
+  #steps .row > *,
+  #lezioni .row > *{
+    float: none!important;
+    width: 95%!important;
     margin: 10px 0;
   }
 
@@ -130,16 +125,11 @@ img {
   #why{
     background-color: #f2f2cd;
   }
-  #why .row > .first,
-  #why .row > .second,
-  #why .row > .third,
-  #steps .row > .left,
-  #steps .row > .central,
-  #steps .row > .right,
-  #lezioni .row > .left,
-  #lezioni .row > .right{
-    float: none;
-    width: 95%;
+ #why .row > *,
+  #steps .row > *,
+  #lezioni .row > *{
+    float: none!important;
+    width: 95%!important;
     margin: 10px 0;
   }
 
